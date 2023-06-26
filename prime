@@ -1,5 +1,5 @@
 #include<stdio.h>
-using namespace std;
+
 int main(){
     int i,num,count=0;
     printf("Input any number of your choice: ");
