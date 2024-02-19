@@ -1,7 +1,25 @@
 # include <stdio.h>
-using namespace std;
+
+void french(){
+	print("Bonjour");
+}
+
+void german(){
+	print("Hallo");
+}
+
+void spanish(){
+	print("Hola");
+}
+
+void english(){
+	print("Hello there");
+}
+
 int main{
-	printf("Hello there");
-	
+	french();
+	german();
+	spanish();
+	english();
 	return 0;
 }
